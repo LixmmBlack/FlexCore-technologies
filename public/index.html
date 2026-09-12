@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="FlexCore Technologies — engineering, research, networking, software, electronics and practical digital solutions."
+    >
+
+    <title>FlexCore Technologies</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+
+        <div class="logo">
+            FLEXCORE TECHNOLOGIES
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#company">Company</a>
+            <a href="#research">Research</a>
+            <a href="#projects">Projects</a>
+            <a href="#apps">Apps</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ENGINEERING • RESEARCH • TECHNOLOGY
+                </p>
+
+                <h1>
+                    Building technology
+                    that solves real problems.
+                </h1>
+
+                <p class="hero-text">
+                    FlexCore Technologies explores engineering,
+                    networking, software, electronics and digital
+                    systems to create practical technology for
+                    real-world challenges.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary">
+                        Explore Projects
+                    </a>
+
+                    <a href="#research" class="btn secondary">
+                        Our Research
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMPANY -->
+        <section id="company" class="section">
+
+            <p class="eyebrow">
+                ABOUT FLEXCORE
+            </p>
+
+            <h2>
+                Technology with purpose.
+            </h2>
+
+            <p class="section-text">
+                FlexCore Technologies is a technology and engineering
+                platform focused on research, experimentation,
+                software development, networking, electronics and
+                practical digital solutions.
+            </p>
+
+        </section>
+
+
+        <!-- RESEARCH -->
+        <section id="research" class="section dark-section">
+
+            <p class="eyebrow">
+                RESEARCH
+            </p>
+
+            <h2>
+                Explore our research.
+            </h2>
+
+            <div class="cards">
+
+                <article class="card">
+
+                    <span>01</span>
+
+                    <h3>
+                        Networking
+                    </h3>
+
+                    <p>
+                        Network infrastructure, connectivity,
+                        authentication, Internet access systems
+                        and network technologies.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Software
+                    </h3>
+
+                    <p>
+                        Web applications, backend systems,
+                        APIs, automation and software platforms.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Electronics
+                    </h3>
+
+                    <p>
+                        Hardware experimentation, embedded systems,
+                        electronic devices and technology research.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+
+    <p class="eyebrow">PROJECTS</p>
+
+    <h2>What we're building.</h2>
+
+    <p class="section-text">
+        Experimental and practical technology projects developed
+        through research, engineering and continuous iteration.
+    </p>
+
+    <div class="cards">
+
+        <!-- PROJECT 01 -->
+        <article class="card project-card">
+
+            <span>PROJECT 01 • ACTIVE DEVELOPMENT</span>
+
+            <h3>Wi-Fi Billing System</h3>
+
+            <p>
+                A network access and billing platform designed to
+                manage customers, packages, payments and Internet
+                access services.
+            </p>
+
+            <button
+                class="project-button"
+                data-project="wifi"
+            >
+                View Project →
+            </button>
+
+        </article>
+
+
+        <!-- PROJECT 02 -->
+        <article class="card project-card">
+
+            <span>PROJECT 02 • RESEARCH</span>
+
+            <h3>Android Flashing Tool</h3>
+
+            <p>
+                Research into Android device communication,
+                firmware management, diagnostics and servicing
+                workflows.
+            </p>
+
+            <button
+                class="project-button"
+                data-project="android"
+            >
+                View Project →
+            </button>
+
+        </article>
+
+
+        <!-- PROJECT 03 -->
+        <article class="card project-card">
+
+            <span>PROJECT 03 • ONGOING</span>
+
+            <h3>Network Systems</h3>
+
+            <p>
+                Research and development around connectivity,
+                authentication, infrastructure and digital
+                access systems.
+            </p>
+
+            <button
+                class="project-button"
+                data-project="network"
+            >
+                View Project →
+            </button>
+
+        </article>
+
+    </div>
+
+
+    <!-- PROJECT DETAIL PANEL -->
+    <div
+        id="project-details"
+        class="project-details"
+        aria-hidden="true"
+    >
+
+        <div class="project-details-inner">
+
+            <button
+                id="close-project"
+                class="close-project"
+                aria-label="Close project details"
+            >
+                ×
+            </button>
+
+            <p id="project-status" class="eyebrow"></p>
+
+            <h3 id="project-title"></h3>
+
+            <p id="project-description"></p>
+
+            <div class="project-meta">
+
+                <div>
+                    <span>Category</span>
+                    <strong id="project-category"></strong>
+                </div>
+
+                <div>
+                    <span>Status</span>
+                    <strong id="project-stage"></strong>
+                </div>
+
+                <div>
+                    <span>Technology</span>
+                    <strong id="project-technology"></strong>
+                </div>
+
+                <div>
+                    <span>Core Areas</span>
+                    <strong id="project-areas"></strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <!-- TUNU NETWORKS -->
+        <section id="tunu" class="section dark-section">
+
+            <p class="eyebrow">
+                NETWORK INITIATIVE
+            </p>
+
+            <h2>
+                Tunu Networks.
+            </h2>
+
+            <p class="section-text">
+                This section will contain verified information about
+                Tunu Networks, including its purpose, services,
+                network infrastructure and relationship to the
+                broader FlexCore Technologies platform.
+            </p>
+
+            <div class="app-box">
+
+                <div>
+
+                    <span class="status">
+                        INFORMATION PENDING VERIFICATION
+                    </span>
+
+                    <h3>
+                        Tunu Networks
+                    </h3>
+
+                    <p>
+                        Official information will be added after
+                        reviewing the source files provided by the
+                        project team.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- APPLICATIONS -->
+        <section id="apps" class="section apps-section">
+
+            <p class="eyebrow">
+                APPLICATIONS
+            </p>
+
+            <h2>
+                Technology you can use.
+            </h2>
+
+            <div class="app-box">
+
+                <div>
+
+                    <span class="status">
+                        IN DEVELOPMENT
+                    </span>
+
+                    <h3>
+                        FlexCore Digital Platform
+                    </h3>
+
+                    <p>
+                        A growing collection of software tools,
+                        network systems and digital applications
+                        developed through FlexCore Technologies.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+
+            <p class="eyebrow">
+                CONTACT
+            </p>
+
+            <h2>
+                Let's build something useful.
+            </h2>
+
+            <p class="section-text">
+                For technology projects, engineering ideas,
+                networking solutions or collaboration,
+                connect with FlexCore Technologies.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="mailto:info@flexcore.tech" class="btn primary">
+                    Contact FlexCore
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+            © 2026 FlexCore Technologies
+        </div>
+
+        <div>
+            Engineering • Research • Technology
+        </div>
+
+    </footer>
+
+
+    <script src="/js/app.js"></script>
+
+</body>
+
+</html>
